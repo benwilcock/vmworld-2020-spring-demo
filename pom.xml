@@ -42,6 +42,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<image>
+						<name>docker.io/benwilcock/vmworld-spring-demo:0.0.1</name>
+					</image>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

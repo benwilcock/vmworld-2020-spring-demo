@@ -24,3 +24,7 @@ hs_err_pid*
 
 # Unversioned folders
 **/target
+
+# Project Files & Folders
+.idea/
+*.iml
